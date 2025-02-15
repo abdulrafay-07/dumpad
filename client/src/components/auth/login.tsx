@@ -41,7 +41,7 @@ export default function Login() {
    return (
       <Card className="w-full md:w-[486px] shadow-none">
          <CardHeader className="flex items-center justify-center text-center p-7">
-            <CardTitle className="text-3xl flex items-center gap-x-2 mb-2">
+            <CardTitle className="text-3xl flex items-center gap-x-2 mb-2 font-logo">
                <Link to="/">Dumpad.</Link>
             </CardTitle>
             <CardDescription>

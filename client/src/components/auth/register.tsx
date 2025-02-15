@@ -42,7 +42,7 @@ export default function Register() {
    return (
       <Card className="w-full md:w-[486px] shadow-none">
          <CardHeader className="flex items-center justify-center text-center p-7">
-            <CardTitle className="text-3xl flex items-center gap-x-2 mb-2">
+            <CardTitle className="text-3xl flex items-center gap-x-2 mb-2 font-logo">
                <Link to="/">Dumpad.</Link>
             </CardTitle>
             <CardDescription>
@@ -119,7 +119,7 @@ export default function Register() {
                </div>
                <p className="text-sm text-center text-neutral-600">
                   Already have an account?{" "}
-                  <Link to="/register" className="text-primary hover:underline">
+                  <Link to="/login" className="text-primary hover:underline">
                      Sign In
                   </Link>
                </p>
